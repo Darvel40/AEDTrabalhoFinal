@@ -100,7 +100,7 @@ void showClassificacoes(listaEquipas *list){
   }
 
   for (int i = 0; i < list->size; i++) {
-    printf("%s: %d (pontos); \n", list->equipa[i]->nome, list->equipa[i]->pontos);
+    printf("%d - %s: %d (pontos); \n", i, list->equipa[i]->nome, list->equipa[i]->pontos);
   }
   printf("/***************************************************/\n");
 }
